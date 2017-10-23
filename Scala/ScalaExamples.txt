@@ -1,0 +1,9 @@
+Currying Function
+-----------------------
+
+def add(x:Int, y:Int):Int={
+     x+y}
+
+val add1 = add(1) _
+
+add1(2) --> Prints 3

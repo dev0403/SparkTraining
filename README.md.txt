@@ -10,3 +10,7 @@ git push -u origin master
 
 git remote add origin https://github.com/dev0403/SparkTraining.git
 git push -u origin master
+
+
+export JAVA_HOME=/usr/java/jdk1.8.0_151
+export PATH=$PATH:$JAVA_HOME/bin
